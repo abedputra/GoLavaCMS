@@ -1,0 +1,38 @@
+.footer-admin {
+  text-align: center;
+  padding: 20px 0 20px;
+}
+.wrap-page{
+  display: inline-block;
+  margin-right: 5px;
+}
+img.lazy {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+.loading{
+  /* optional way, set loading as background */
+  background-image: url('https://loading.io/spinners/coolors/lg.palette-rotating-ring-loader.gif');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+.upload-box{
+  padding: 40px;
+  margin: 20px 0;
+  display: block;
+  border: 1px solid #d7d7d7;
+}
+#MediaModal img:hover {
+  border: #000 2px solid;
+  cursor: pointer;
+}
+.selected {
+  border: #362c2c 5px solid;
+}
